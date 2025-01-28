@@ -16,6 +16,7 @@ export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH
 # Navigation
 alias ls='ls -lh --color=auto'
 alias l='ls -a'
+alias c='clear'
 alias Home='cd /mnt/c/Users/javii'
 alias Bash='vim ~/.bashrc'
 alias RefreshBash="source /home/$USER/.bashrc"
