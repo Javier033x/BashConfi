@@ -14,7 +14,7 @@ export INFOPATH=/usr/local/texlive/2024/texmf-dist/doc/info:$INFOPATH
 export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH
 
 # Navigation
-alias ls='ls -lh --color=auto'
+alias ls='ls -h --color=auto'
 alias l='ls -a'
 alias c='clear'
 alias Home='cd /mnt/c/Users/javii'
@@ -25,6 +25,10 @@ alias RefreshBash="source /home/$USER/.bashrc"
 alias Install="sudo apt install"
 alias Uninstall="sudo apt remove"
 alias SystemUpdate="sudo apt update; sudo apt upgrade"
+
+#SNAP
+alias InstallSnap="sudo snap install"
+alias UninstallSnap="sudo snap remove"
 
 # Git
 alias gti="git init"
